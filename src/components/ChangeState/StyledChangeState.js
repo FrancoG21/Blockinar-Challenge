@@ -140,7 +140,7 @@ export const ButtonBack = styled(IoReturnDownBackSharp)`
   width: 3rem;
   height: 3rem;
   top: 0;
-  color: ${(props) => props.theme.backgroundPrimary};
+  color: #fff;
 
   @media screen and (max-width: 600px) {
     width: 2rem;

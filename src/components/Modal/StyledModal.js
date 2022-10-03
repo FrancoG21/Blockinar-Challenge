@@ -28,6 +28,11 @@ export const BackModal = styled.div`
     border-radius: 5px;
     box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
+
+    @media screen and (max-width: 600px) {
+        width: 90%;
+        margin-right: 80px;
+    }
     /* background-color: #000;
     padding: 2rem;
     border-radius: 15px;

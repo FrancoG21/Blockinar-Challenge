@@ -108,8 +108,8 @@ export default function TableBookings() {
               <FilesBooking>{booking.price_per_night}$</FilesBooking>
               <FilesBooking>{booking.check_in_date}</FilesBooking>
               <FilesBooking>{booking.check_out_date}</FilesBooking>
-              {/* <FilesBooking>{booking.booking_status}</FilesBooking> */}
-              <FilesBooking>
+              <FilesBooking>{booking.booking_status}</FilesBooking>
+              {/* <FilesBooking>
                 {booking.booking_status === "cancelled"
                   ? "Cancelado"
                   : booking.booking_status === "in house"
@@ -119,7 +119,7 @@ export default function TableBookings() {
                   : booking.booking_status === "confirmed"
                   ? "Confirmado"
                   : "Confirmado"}
-              </FilesBooking>
+              </FilesBooking> */}
 
               <NavLink to={`/formState/${booking.id}`}>
                 <ButtonEdit>Editar</ButtonEdit>

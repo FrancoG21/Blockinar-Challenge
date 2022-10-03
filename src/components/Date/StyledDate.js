@@ -9,10 +9,15 @@ export const DivDate = styled.div`
 export const InputDate = styled.input`
   display: flex;
   justify-content: center;
+  width: 200px;
   padding: 5px;
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
   border: 1px solid #000;
+
+  @media screen and (max-width:600px) {
+    width: 180px;
+  }
 `;
 
 export const ButtonDate = styled.button`

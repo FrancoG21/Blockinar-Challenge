@@ -63,4 +63,9 @@ export const ButtonReset = styled.button`
     background-color: ${(props) => props.theme.backgroundSecondary};
     color: ${(props) => props.theme.fontSecondary};
   }
+
+  @media screen and (max-width:600px) {
+    margin-right: 5px;
+  }
+
 `;

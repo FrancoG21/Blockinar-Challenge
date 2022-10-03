@@ -24,7 +24,7 @@ export default function Date() {
   return (
     <div>
       <DivDate>
-        <InputDate type="text" value={state} onChange={(e) => searchDate(e)} />
+        <InputDate type="text" value={state} placeholder='Ingresar fecha con - y sin la T' onChange={(e) => searchDate(e)} />
         <ButtonDate onClick={(e) => submitDate(e)}>Buscar</ButtonDate>
       </DivDate>
     </div>
